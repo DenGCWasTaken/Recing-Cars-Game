@@ -42,7 +42,7 @@ class Game{
         form.hide();
         Player.getPlayerInfo();
         if(allPlayers !== undefined){
-            //image(track,0,-displayHeight*4,displayWidth,displayHeight*5);
+            image(track,0,-displayHeight*4,displayWidth,displayHeight*5);
             var index = 0;
             var x = width/7;
             var y;
